@@ -20,7 +20,9 @@ function App() {
 
   return (
     <>
-      <h1>{time}</h1>
+      <div className="flex justify-center items-center h-[100vh]">
+        <h1 className="text-9xl font-bold">{time}</h1>
+      </div>
     </>
   );
 }
